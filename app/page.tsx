@@ -179,8 +179,7 @@ export default function Home() {
         </div>
         <div className="nav-links">
           <button className="nav-link">Explore</button>
-          <button className="nav-link">List your land</button>
-          <button className="nav-btn">Sign in</button>
+          <a href="/list" className="nav-link" style={{ textDecoration: 'none' }}>List your land</a>          <button className="nav-btn">Sign in</button>
         </div>
       </nav>
 
